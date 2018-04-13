@@ -2,7 +2,7 @@
 
 A Mac keboard layout for the Israeli standard layout 1452-2 (2017); see http://mikladot.com for what's new.
 
-Adapted from the standard MacOS Hebrew layout using Ukelele by Erez Volk.
+Adapted from the standard MacOS Hebrew layout by Erez Volk.
 
 ## Installation Instructions
 
