@@ -6,6 +6,8 @@ Adapted from the standard MacOS Hebrew layout by Erez Volk.
 
 ## Installation Instructions
 
+<p align="center" direction="rtl">קובץ ההתקנה נמצא <a href="Hebrew%20SI%201452-2.dmg?raw=true">פה</a>. אפשר להתקין לצד כל פרישת מקלדת עברית אחרת.</p>
+
 - Download and open the [installer](Hebrew%20SI%201452-2.dmg?raw=true).
 - Drag the layout to the folder saying "Drag here to install"
 - Go to System Preferences > Keyboard and add the new input source. Note that there's 
