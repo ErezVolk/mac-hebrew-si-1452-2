@@ -18,7 +18,7 @@ in Hebrew layout, of course).
 
 Here are the changes (and [here](Hebrew%20Modified.dms?raw=true) is the installer):
 
-- The <kdb>-</kbd> (minus) key now types ־ (maqaf) without any modifiers and -
+- The <kbd>-</kbd> (minus) key now types ־ (maqaf) without any modifiers and -
   (minus) with the level-3 modifier (<kbd>AltGr</kbd>/<kbd>OPTION</kbd>/<kbd>⌥</kbd>).
 
 - The <kbd>'</kbd>/<kbd>"</kbd> key now produces a single/double upper mercha; to access
@@ -48,8 +48,8 @@ The following table lists the changes (⇧ = Level 2 Select (Shift); ⌥ = Level
 | <kbd>⌥</kbd>+<kbd>L</kbd>  | ” U+201D RIGHT DOUBLE QUOTATION MARK  | " U+0022 QUOTATION MARK               |
 | <kbd>\</kbd>               | \ U+005C REVERSE SOLIDUS              | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
 | <kbd>⌥</kbd>+<kbd>``</kbd> | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | \ U+005C REVERSE SOLIDUS              |
-| <kbd>-</kbd><kbd>-</kbd>   | - -                                   | ״ U+05F4 HEBREW PUNCTUATION GERSHAYIM |
-| <kbd>\\</kbd><kbd>\\</kbd> | \ \                                   |  ּ U+05BC HEBREW POINT DAGESH OR MAPIQ |
+| <kbd>-</kbd> <kbd>-</kbd>  | - -                                   | ״ U+05F4 HEBREW PUNCTUATION GERSHAYIM |
+| <kbd>\\</kbd> <kbd>\\</kbd>| \ \                                   |  ּ U+05BC HEBREW POINT DAGESH OR MAPIQ |
 
 
 ## Random
