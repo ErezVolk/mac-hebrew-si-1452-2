@@ -20,7 +20,10 @@ Adapted from the standard MacOS Hebrew layout by Erez Volk.
 - For the icon, I used the Miriam CLM font from [the Culmus project](http://culmus.sourceforge.net/index.html)
 
 Comments and requests are more then welcome!
+
 Hacking the keyboard layout can also be nice―there are a couple of unused keys just waiting for your favorite characters...
+
+If you're feeling really adventurous, check out my own [slightly modified version](modified).
 
 Erez Volk, April 2018
 

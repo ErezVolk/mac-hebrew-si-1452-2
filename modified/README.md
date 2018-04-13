@@ -24,25 +24,31 @@ Here are the changes (and [here](Hebrew%20Modified.dms?raw=true) is the installe
 - The backslash (\) key now produces a geresh, allowing you to type צ׳ופצ׳יק without
   modifier keys. To get the backslash character (note that the Hebrew slash is the
   forward one), use ⌥+backtick.
+- More experimentally, I've created two "dead key" combinations:
+  - Since geresh-geresh is never used in Hebrew, typing that sequence will produce
+    gershayim.
+  - Since maqaf-maqaf is equally unused, typing that sequence will produce _a dagesh_
+    symbol. A kav mafrid may seem more natural, but the rationale is that a dagesh
+    is often used for disambiguation of words, and I want to reduce the use of the
+    thumb for common things.
 
 The following table lists the changes (⇧ = Level 2 Select (Shift); ⌥ = Level 3 Select (AltGr/Option)):
 
-| Key        | SI 1452-2                             | Hebrew Modified                       |
-| ---------- | ------------------------------------- | ------------------------------------- |
-| `-`        | - U+002D HYPEN-MINUS                  | ־ U+05BE HEBREW PUNCTUATION MAQAF     |
-| ⌥+`-`      | ־ U+05BE HEBREW PUNCTUATION MAQAF     | - U+002D HYPEN-MINUS                  |
-| `'`        | ' U+0027 APOSTROPHE                   | ’ U+2019 RIGHT SINGLE QUTATION MARK   |
-| ⌥+`,`      | ’ U+2019 RIGHT SINGLE QUTATION MARK   | ' U+0027 APOSTROPHE                   |
-| ⇧+`'`      | " U+0022 QUOTATION MARK               | ” U+201D RIGHT DOUBLE QUOTATION MARK  |
-| ⌥+`L`      | ” U+201D RIGHT DOUBLE QUOTATION MARK  | " U+0022 QUOTATION MARK               |
-| `\`        | \ U+005C REVERSE SOLIDUS              | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
-| ⌥+`` ` ``  | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | \ U+005C REVERSE SOLIDUS              |
+| Key (Sequence) | SI 1452-2                             | Hebrew Modified                       |
+| -------------- | ------------------------------------- | ------------------------------------- |
+| `-`            | - U+002D HYPEN-MINUS                  | ־ U+05BE HEBREW PUNCTUATION MAQAF     |
+| ⌥+`-`          | ־ U+05BE HEBREW PUNCTUATION MAQAF     | - U+002D HYPEN-MINUS                  |
+| `'`            | ' U+0027 APOSTROPHE                   | ’ U+2019 RIGHT SINGLE QUTATION MARK   |
+| ⌥+`,`          | ’ U+2019 RIGHT SINGLE QUTATION MARK   | ' U+0027 APOSTROPHE                   |
+| ⇧+`'`          | " U+0022 QUOTATION MARK               | ” U+201D RIGHT DOUBLE QUOTATION MARK  |
+| ⌥+`L`          | ” U+201D RIGHT DOUBLE QUOTATION MARK  | " U+0022 QUOTATION MARK               |
+| `\`            | \ U+005C REVERSE SOLIDUS              | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
+| ⌥+`` ` ``      | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | \ U+005C REVERSE SOLIDUS              |
+| `-` `-`        | - -                                   | ״ U+05F4 HEBREW PUNCTUATION GERSHAYIM |
+| `\` `\`        | \ \                                   |  ּ U+05BC HEBREW POINT DAGESH OR MAPIQ |
 
 
 ## Random
 - Is U+0022 QUTATION MARK really not needed? Google understands U+201D just as well...
-- Using shift+\| for gershayim would be more symmetrical
-- Modifier-less dagesh (common for disambiguation)?
-- Some kind of compose sequence: maqaf-maqaf and geresh-geresh never appear in Hebrew text;
-  geresh-geresh could be a useful gershayim, maqaf-maqaf looks like a convincing "quick dagesh"
-  to me.
+- Dead keys open up a whole new world.
+- What am I missing?
