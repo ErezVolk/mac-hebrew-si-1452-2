@@ -49,9 +49,7 @@ The following table lists the changes (⇧ = Level 2 Select (Shift); ⌥ = Level
 | <kbd>\</kbd>               | \ U+005C REVERSE SOLIDUS              | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
 | <kbd>⌥</kbd>+<kbd>``</kbd> | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | \ U+005C REVERSE SOLIDUS              |
 | <kbd>-</kbd> <kbd>-</kbd>  | - -                                   | ״ U+05F4 HEBREW PUNCTUATION GERSHAYIM |
-| <kbd>\\</kbd> <kbd>\\</kbd>| \ \                                   | ◌ּ U+05BC HEBREW POINT DAGESH OR MAPIQ |
-
-
+| <kbd>\\</kbd> <kbd>\\</kbd>| \ \                                   | U+05BC HEBREW POINT DAGESH OR MAPIQ |
 
 
 ## Random
