@@ -18,26 +18,25 @@ in Hebrew layout, of course).
 
 Here are the changes (and [here](Hebrew%20Modified.dms?raw=true) is the installer):
 - The minus sign now types ־ (makaf) without any modifiers and - (minus) with the
-  level-3 modifier (AltGr/Option/⌥).
+  level-3 modifier (AltGr/Option/⇮/⌥).
 - The single/double quote key now produces a single/double upper mercha; to access
-  the non-Hebrew characters when in Hebrew mode, use the level-3 modifier. I'll use
-  the Mac convention and denote it ⌥.
+  the non-Hebrew characters when in Hebrew mode, use the level-3 modifier.
 - The backslash (\) key now produces a geresh, allowing you to type צ׳ופצ׳יק without
   modifier keys. To get the backslash character (note that the Hebrew slash is the
-  forward one), use ⌥+backtick.
+  forward one), use ⇮+backtick.
 
-The following table lists the changes:
+The following table lists the changes (⇧ = Level 2 Select (Shift); ⇮ = Level 3 Select (AltGr/Option)):
 
-| Key      | SI 1452-2                   | Hebrew Modified |
-| -------- | --------------------------- | --------------- |
-| -        | - U+002D HYPEN-MINUS                 | ־ U+05BE HEBREW PUNCTUATION MAQAF    |
-| ⌥+-      | ־ U+05BE HEBREW PUNCTUATION MAQAF    | - U+002D HYPEN-MINUS                 |
-| '        | ' U+0027 APOSTROPHE                  | ’ U+2019 RIGHT SINGLE QUTATION MARK  |
-| ⌥+,      | ’ U+2019 RIGHT SINGLE QUTATION MARK  | ' U+0027 APOSTROPHE                  |
-| Shift+'  | " U+0022 QUOTATION MARK              | ” U+201D RIGHT DOUBLE QUOTATION MARK |
-| AltGt+L  | ” U+201D RIGHT DOUBLE QUOTATION MARK | " U+0022 QUOTATION MARK              |
-| \        | \ U+005C REVERSE SOLIDUS             | ׳ U+05F3 HEBREW PUNCTUATION GERESH   |
-| ⌥+`      | ׳  U+05F3 HEBREW PUNCTUATION GERESH  | \ U+005C REVERSE SOLIDUS             |
+| Key  | SI 1452-2                            | Hebrew Modified                      |
+| ---- | ------------------------------------ | ------------------------------------ |
+| -    | - U+002D HYPEN-MINUS                 | ־ U+05BE HEBREW PUNCTUATION MAQAF    |
+| ⇮+-  | ־ U+05BE HEBREW PUNCTUATION MAQAF    | - U+002D HYPEN-MINUS                 |
+| '    | ' U+0027 APOSTROPHE                  | ’ U+2019 RIGHT SINGLE QUTATION MARK  |
+| ⇮+,  | ’ U+2019 RIGHT SINGLE QUTATION MARK  | ' U+0027 APOSTROPHE                  |
+| ⇧+'  | " U+0022 QUOTATION MARK              | ” U+201D RIGHT DOUBLE QUOTATION MARK |
+| ⇮+L  | ” U+201D RIGHT DOUBLE QUOTATION MARK | " U+0022 QUOTATION MARK              |
+| \    | \ U+005C REVERSE SOLIDUS             | ׳ U+05F3 HEBREW PUNCTUATION GERESH   |
+| ⇮+`  | ׳  U+05F3 HEBREW PUNCTUATION GERESH  | \ U+005C REVERSE SOLIDUS             |
 
 
 ## Random
