@@ -46,7 +46,7 @@ The following table lists the changes (⇧ = Level 2 Select (Shift); ⌥ = Level
 | <kbd>⌥</kbd>+<kbd>,</kbd>  | ’ U+2019 RIGHT SINGLE QUTATION MARK   | ' U+0027 APOSTROPHE                   |
 | <kbd>⇧</kbd>+<kbd>'</kbd>  | " U+0022 QUOTATION MARK               | ” U+201D RIGHT DOUBLE QUOTATION MARK  |
 | <kbd>⌥</kbd>+<kbd>L</kbd>  | ” U+201D RIGHT DOUBLE QUOTATION MARK  | " U+0022 QUOTATION MARK               |
-| <kbd>\</kbd>               | \ U+005C REVERSE SOLIDUS              | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
+| <kbd>\\</kbd>               | \ U+005C REVERSE SOLIDUS              | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
 | <kbd>⌥</kbd>+<kbd>``</kbd> | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | \ U+005C REVERSE SOLIDUS              |
 | <kbd>-</kbd> <kbd>-</kbd>  | - -                                   | ״ U+05F4 HEBREW PUNCTUATION GERSHAYIM |
 | <kbd>\\</kbd> <kbd>\\</kbd>| \ \                                   | U+05BC HEBREW POINT DAGESH OR MAPIQ |
