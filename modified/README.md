@@ -27,20 +27,21 @@ Here are the changes (and [here](Hebrew%20Modified.dms?raw=true) is the installe
 
 The following table lists the changes (⇧ = Level 2 Select (Shift); ⌥ = Level 3 Select (AltGr/Option)):
 
-| Key        | SI 1452-2                            | Hebrew Modified                       |
-| ---------- | ------------------------------------ | ------------------------------------- |
-| `-`        | - U+002D HYPEN-MINUS                 | ־ U+05BE HEBREW PUNCTUATION MAQAF     |
-| ⌥+`-`      | ־ U+05BE HEBREW PUNCTUATION MAQAF    | - U+002D HYPEN-MINUS                  |
-| `'`        | ' U+0027 APOSTROPHE                  | ’ U+2019 RIGHT SINGLE QUTATION MARK   |
-| ⌥+`,`      | ’ U+2019 RIGHT SINGLE QUTATION MARK  | ' U+0027 APOSTROPHE                   |
-| ⇧+`'`      | " U+0022 QUOTATION MARK              | ” U+201D RIGHT DOUBLE QUOTATION MARK  |
-| ⌥+`L`      | ” U+201D RIGHT DOUBLE QUOTATION MARK | " U+0022 QUOTATION MARK               |
-| `\`        | \ U+005C REVERSE SOLIDUS             | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
-| ⌥+`` ` ``  | ׳  U+05F3 HEBREW PUNCTUATION GERESH  | \ U+005C REVERSE SOLIDUS              |
-| ⇧+`\`      | \| U+007C VERTICAL LINE              | ״ U+05F4 HEBREW PUNCTUATION GERSHAYIM |
+| Key        | SI 1452-2                             | Hebrew Modified                       |
+| ---------- | ------------------------------------- | ------------------------------------- |
+| `-`        | - U+002D HYPEN-MINUS                  | ־ U+05BE HEBREW PUNCTUATION MAQAF     |
+| ⌥+`-`      | ־ U+05BE HEBREW PUNCTUATION MAQAF     | - U+002D HYPEN-MINUS                  |
+| `'`        | ' U+0027 APOSTROPHE                   | ’ U+2019 RIGHT SINGLE QUTATION MARK   |
+| ⌥+`,`      | ’ U+2019 RIGHT SINGLE QUTATION MARK   | ' U+0027 APOSTROPHE                   |
+| ⇧+`'`      | " U+0022 QUOTATION MARK               | ” U+201D RIGHT DOUBLE QUOTATION MARK  |
+| ⌥+`L`      | ” U+201D RIGHT DOUBLE QUOTATION MARK  | " U+0022 QUOTATION MARK               |
+| `\`        | \ U+005C REVERSE SOLIDUS              | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
+| ⌥+`` ` ``  | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | \ U+005C REVERSE SOLIDUS              |
 
 
 ## Random
 - Is U+0022 QUTATION MARK really not needed? Google understands U+201D just as well...
 - Modifier-less dagesh (common for disambiguation)?
-- Some kind of compose sequence: maqaf-maqaf and geresh-geresh never appear in Hebrew text
+- Some kind of compose sequence: maqaf-maqaf and geresh-geresh never appear in Hebrew text;
+  geresh-geresh could be a useful gershayim, maqaf-maqaf looks like a convincing "quick dagesh"
+  to me.
