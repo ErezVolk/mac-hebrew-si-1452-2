@@ -41,6 +41,7 @@ The following table lists the changes (⇧ = Level 2 Select (Shift); ⌥ = Level
 
 ## Random
 - Is U+0022 QUTATION MARK really not needed? Google understands U+201D just as well...
+- Using shift+\| for gershayim would be more symmetrical
 - Modifier-less dagesh (common for disambiguation)?
 - Some kind of compose sequence: maqaf-maqaf and geresh-geresh never appear in Hebrew text;
   geresh-geresh could be a useful gershayim, maqaf-maqaf looks like a convincing "quick dagesh"
