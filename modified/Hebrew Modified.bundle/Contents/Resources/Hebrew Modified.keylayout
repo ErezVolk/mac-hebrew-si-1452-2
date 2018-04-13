@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.7.195 on 2018-04-13 at 15:36 (GMT+3)-->
+<!--Last edited by Ukelele version 3.2.7.195 on 2018-04-13 at 20:30 (GMT+3)-->
 <!--Adapted from the standard MacOS Hebrew keyboard layout by Erez Volk.-->
 <keyboard group="126" id="-11809" name="Hebrew Modified" maxout="2">
 	<layouts>
@@ -295,7 +295,7 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="ך"/>
 			<key code="38" output="ח"/>
-			<key code="39" output="’"/>
+			<key code="39" output="&#x0027;"/>
 			<key code="40" output="ל"/>
 			<key code="41" output="ף"/>
 			<key code="42" action="׳"/>
@@ -403,7 +403,7 @@
 			<key code="36" output="&#x000D;"/>
 			<key code="37" output="L"/>
 			<key code="38" output="J"/>
-			<key code="39" output="”"/>
+			<key code="39" output="&#x0022;"/>
 			<key code="40" output="K"/>
 			<key code="41" output=":"/>
 			<key code="42" output="|"/>
@@ -510,13 +510,13 @@
 			<key code="34" output=""/>
 			<key code="35" output="ַ"/>
 			<key code="36" output="&#x000D;"/>
-			<key code="37" output="״"/>
+			<key code="37" output="”"/>
 			<key code="38" output="ִ"/>
 			<key code="39" output="״"/>
 			<key code="40" output=""/>
 			<key code="41" output="„"/>
 			<key code="42" output="ֻ"/>
-			<key code="43" output="&#x0027;"/>
+			<key code="43" output="’"/>
 			<key code="44" output="÷"/>
 			<key code="45" output=""/>
 			<key code="46" output="ֵ"/>

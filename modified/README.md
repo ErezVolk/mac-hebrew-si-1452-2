@@ -21,9 +21,6 @@ Here are the changes (and [here](Hebrew%20Modified.dms?raw=true) is the installe
 - The <kbd>-</kbd> (minus) key now types ־ (maqaf) without any modifiers and -
   (minus) with the level-3 modifier (<kbd>AltGr</kbd>/<kbd>OPTION</kbd>/<kbd>⌥</kbd>).
 
-- The <kbd>'</kbd>/<kbd>"</kbd> key now produces a single/double upper mercha; to access
-  the non-Hebrew characters when in Hebrew mode, use the level-3 modifier.
-
 - The <kbd>\\</kbd> (backslash> key now produces a geresh, allowing you to type
   צ׳ופצ׳יק without modifier keys. To get the backslash character (note that the
 Hebrew slash is the forward one), use <kbd>⌥</kbd>+<kbd>`</kbd>.
@@ -36,23 +33,21 @@ Hebrew slash is the forward one), use <kbd>⌥</kbd>+<kbd>`</kbd>.
     is often used for disambiguation of words, and I want to reduce the use of the
     thumb for common things.
 
-The following table lists the changes (⇧ = Level 2 Select (Shift); ⌥ = Level 3 Select (AltGr/Option)):
+The following table lists the changes (<kbd>⇧</kbd> = Level 2 Select (<kbd>Shift</kbd>);
+<kbd>⌥</kbd> = Level 3 Select (<kbd>AltGr</kbd>/<kbd>Option</kbd>)):
 
 | Key (Sequence)             | SI 1452-2                             | Hebrew Modified                       |
 | -------------------------- | ------------------------------------- | ------------------------------------- |
 | <kbd>-</kbd>               | - U+002D HYPEN-MINUS                  | ־ U+05BE HEBREW PUNCTUATION MAQAF     |
 | <kbd>⌥</kbd>+<kbd>-</kbd>  | ־ U+05BE HEBREW PUNCTUATION MAQAF     | - U+002D HYPEN-MINUS                  |
-| <kbd>'</kbd>               | ' U+0027 APOSTROPHE                   | ’ U+2019 RIGHT SINGLE QUTATION MARK   |
-| <kbd>⌥</kbd>+<kbd>,</kbd>  | ’ U+2019 RIGHT SINGLE QUTATION MARK   | ' U+0027 APOSTROPHE                   |
-| <kbd>⇧</kbd>+<kbd>'</kbd>  | " U+0022 QUOTATION MARK               | ” U+201D RIGHT DOUBLE QUOTATION MARK  |
-| <kbd>⌥</kbd>+<kbd>L</kbd>  | ” U+201D RIGHT DOUBLE QUOTATION MARK  | " U+0022 QUOTATION MARK               |
-| <kbd>\\</kbd>               | \ U+005C REVERSE SOLIDUS              | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
+| <kbd>\\</kbd>              | \ U+005C REVERSE SOLIDUS              | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
 | <kbd>⌥</kbd>+<kbd>``</kbd> | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | \ U+005C REVERSE SOLIDUS              |
 | <kbd>-</kbd> <kbd>-</kbd>  | - -                                   | ״ U+05F4 HEBREW PUNCTUATION GERSHAYIM |
-| <kbd>\\</kbd> <kbd>\\</kbd>| \ \                                   | U+05BC HEBREW POINT DAGESH OR MAPIQ |
+| <kbd>\\</kbd> <kbd>\\</kbd>| \ \                                   |   U+05BC HEBREW POINT DAGESH OR MAPIQ |
 
 
 ## Random
-- Is U+0022 QUTATION MARK really not needed? Google understands U+201D just as well...
+- Apostrophe and (Latin) quotation marks are fine, even though they're not proper Hebrew punctuation,
+  since we don't use different opening/closing quotes.
 - Dead keys open up a whole new world.
 - What am I missing?
