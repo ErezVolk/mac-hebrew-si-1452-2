@@ -6,7 +6,7 @@ Adapted from the standard MacOS Hebrew layout by Erez Volk.
 
 ## Installation Instructions
 
-<p align="center" direction="rtl"><b>קובץ ההתקנה נמצא <a href="Hebrew%20SI%201452-2.dmg?raw=true">פה</a></b>/p>
+<p align="center" direction="rtl"><b>קובץ ההתקנה נמצא <a href="Hebrew%20SI%201452-2.dmg?raw=true">פה</a></b></p>
 
 - Download and open the [installer](Hebrew%20SI%201452-2.dmg?raw=true).
 - Drag the layout to the folder saying "Drag here to install"
