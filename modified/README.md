@@ -16,14 +16,14 @@ the Israeli standard layout (1452-2) that would flip the situation, making the
 Hebrew punctuation natural to type and the foreign characters harder (only when
 in Hebrew layout, of course).
 
-Here are the changes (and [here](Hebrew%20Modified.dms?raw=true) is the installer):
+Here are the changes (and [here](Hebrew%20Modified.dms?raw=true) is the MacOS installer):
 
 - The <kbd>-</kbd> (minus) key now types ־ (maqaf) without any modifiers and -
   (minus) with the level-3 modifier (<kbd>AltGr</kbd>/<kbd>OPTION</kbd>/<kbd>⌥</kbd>).
 
 - The <kbd>\\</kbd> (backslash> key now produces a geresh, allowing you to type
   צ׳ופצ׳יק without modifier keys. To get the backslash character (note that the
-Hebrew slash is the forward one), use <kbd>⌥</kbd>+<kbd>`</kbd>.
+Hebrew slash is the forward one), use <kbd>⇮</kbd>+<kbd>`</kbd>.
 
 - More experimentally, I've created two "dead key" combinations:
   - Since geresh-geresh is never used in Hebrew, typing that sequence will produce
@@ -34,14 +34,14 @@ Hebrew slash is the forward one), use <kbd>⌥</kbd>+<kbd>`</kbd>.
     thumb for common things.
 
 The following table lists the changes (<kbd>⇧</kbd> = Level 2 Select (<kbd>Shift</kbd>);
-<kbd>⌥</kbd> = Level 3 Select (<kbd>AltGr</kbd>/<kbd>Option</kbd>)):
+<kbd>⇮</kbd> = Level 3 Select (<kbd>AltGr</kbd>/<kbd>Option</kbd>)):
 
 | Key (Sequence)             | SI 1452-2                             | Hebrew Modified                       |
 | -------------------------- | ------------------------------------- | ------------------------------------- |
 | <kbd>-</kbd>               | - U+002D HYPEN-MINUS                  | ־ U+05BE HEBREW PUNCTUATION MAQAF     |
-| <kbd>⌥</kbd>+<kbd>-</kbd>  | ־ U+05BE HEBREW PUNCTUATION MAQAF     | - U+002D HYPEN-MINUS                  |
+| <kbd>⇮</kbd>+<kbd>-</kbd>  | ־ U+05BE HEBREW PUNCTUATION MAQAF     | - U+002D HYPEN-MINUS                  |
 | <kbd>\\</kbd>              | \ U+005C REVERSE SOLIDUS              | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
-| <kbd>⌥</kbd>+<kbd>\`</kbd> | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | \ U+005C REVERSE SOLIDUS              |
+| <kbd>⇮</kbd>+<kbd>\`</kbd> | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | \ U+005C REVERSE SOLIDUS              |
 | <kbd>-</kbd> <kbd>-</kbd>  | - -                                   | ״ U+05F4 HEBREW PUNCTUATION GERSHAYIM |
 | <kbd>\\</kbd> <kbd>\\</kbd>| \ \                                   |   U+05BC HEBREW POINT DAGESH OR MAPIQ |
 
