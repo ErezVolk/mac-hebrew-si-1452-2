@@ -1,0 +1,66 @@
+// This Hebrew layout is compliant with the new layout published by the Israeli Institute of Standard; Israeli Standard 1452-2. Uploaded by Yuval Rabinovich, December, 2017.
+// Punctuation marks do not change keys when switching Hebrew/English, except semicolon.
+// Final Zade, final Nun, and Taw are not on their traditional keys.
+// Final nun was relocated. Traditional location is adjacent to Waw, which looks similiar and leads to the most common typing error in Hebrew.
+// Additional characters were added.
+
+partial alphanumeric_keys 
+xkb_symbols "si1452-2" {
+    name[Group1]= "Hebrew (si1452-2)";
+    key.type = "FOUR_LEVEL_SEMIALPHABETIC";
+
+    key <TLDE> { [ semicolon, asciitilde, 0x10005f3 ]}; // HEBREW PUNCTUATION GERESH
+
+    key <AE01> { [ 1, exclam ]};
+    key <AE02> { [ 2, at ]};
+    key <AE03> { [ 3, numbersign , EuroSign ]};
+    key <AE04> { [ 4, dollar , 0x10020AA ]}; // NEW SHEQEL SIGN
+    key <AE05> { [ 5, percent , 0x10000b0 ]}; // DEGREE SIGN
+    key <AE06> { [ 6, asciicircum , 0x10005ab ]}; // HEBREW ACCENT OLE
+    key <AE07> { [ 7, ampersand ,	0x10005bd ]}; // HEBREW POINT METEG
+    key <AE08> { [ 8, asterisk    , 0x10000d7 ]}; // MULTIPLICATION SIGN
+    key <AE09> { [ 9, parenright  , 0x100200e ]}; // LEFT-TO-RIGHT MARK
+    key <AE10> { [ 0, parenleft   , 0x100200f ]}; // RIGHT-TO-LEFT MARK
+    key <AE11> { [ minus, underscore  , 0x10005be ]}; // HEBREW PUNCTUATION MAQAF
+    key <AE12> { [ equal, plus , 0x1002013 ]}; // EN DASH
+
+    key <AD01> { [ hebrew_finalzade, Q,	0x10005c2 ]}; // HEBREW POINT SIN DOT
+    key <AD02> { [ hebrew_finalnun, W, 0x10005c1 ]}; // HEBREW POINT SHIN DOT
+    key <AD03> { [ hebrew_qoph, E, 0x10005b8 ]}; // HEBREW POINT QAMATS
+    key <AD04> { [ hebrew_resh, R, 0x10005b3 ]}; // HEBREW POINT HATAF QAMATS
+    key <AD05> { [ hebrew_aleph, T ]}; //
+    key <AD06> { [ hebrew_tet,	Y ]}; //
+    key <AD07> { [ hebrew_waw, U, 0x10005b9 ]}; // HEBREW POINT HOLAM
+    key <AD08> { [ hebrew_taw,	I ]}; //
+    key <AD09> { [ hebrew_finalmem, O ]};
+    key <AD10> { [ hebrew_pe,	P, 0x10005b7 ]}; // HEBREW POINT PATAH
+    key <AD11> { [ bracketright, braceright, 0x10005b2 ]}; // HEBREW POINT HATAF PATAH
+    key <AD12> { [ bracketleft, braceleft, 0x10005bf ]}; // HEBREW POINT RAFE
+
+    key <AC01> { [ hebrew_shin,	A, 0x10005b0 ]}; // HEBREW POINT SHEVA
+    key <AC02> { [ hebrew_dalet, S, 0x10005bc ]}; // HEBREW POINT DAGESH OR MAPIQ (or shuruq)
+    key <AC03> { [ hebrew_gimel, D ]};
+    key <AC04> { [ hebrew_kaph,	F ]};
+    key <AC05> { [ hebrew_ayin,	G ]};
+    key <AC06> { [ hebrew_yod,	H ]};
+    key <AC07> { [ hebrew_chet,	J , 0x10005b4 ]}; // HEBREW POINT HIRIQ
+    key <AC08> { [ hebrew_lamed, K ]};
+    key <AC09> { [ hebrew_finalkaph, L, 0x100201d ]}; // RIGHT DOUBLE QUOTATION MARK
+    key <AC10> { [ hebrew_finalpe, colon,  0x100201e ]}; // DOUBLE LOW-9 QUOTATION MARK
+    key <AC11> { [ apostrophe,	quotedbl, 0x10005f4 ]}; // HEBREW PUNCTUATION GERSHAYIM
+
+    key <AB01> { [ hebrew_zain,	Z ]};
+    key <AB02> { [ hebrew_samech, X, 0x10005b6 ]}; // HEBREW POINT SEGOL
+    key <AB03> { [ hebrew_bet,	C, 0x10005b1 ]}; // HEBREW POINT HATAF SEGOL
+    key <AB04> { [ hebrew_he,	V ]};
+    key <AB05> { [ hebrew_nun,	B ]};
+    key <AB06> { [ hebrew_mem,	N ]};
+    key <AB07> { [ hebrew_zade,	M , 0x10005b5 ]}; // HEBREW POINT TSERE
+    key <AB08> { [ comma, greater, 0x1002019 ]}; // RIGHT SINGLE QUOTATION MARK
+    key <AB09> { [ period, less, 0x100201a ]}; // SINGLE LOW-9 QUOTATION MARK
+    key <AB10> { [ slash, question, 0x10000f7 ]}; // DIVISION SIGN
+
+    key <BKSL> { [ backslash, bar, 0x10005bb ]}; // HEBREW POINT QUBUTS
+    key <SPCE> { [ space, space ] };
+    include "level3(ralt_switch)"
+};

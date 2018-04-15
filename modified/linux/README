@@ -1,0 +1,101 @@
+English instructions follow Hebrew instructions.
+הוראות התקנה למערכת לינוקס (Linux):
+
+הורד את התיקיה הדחוסה arkn-linux.zip
+הפעל טרמינל. 
+הקלד sudo gedit. 
+בחר פתיחת קובץ. נווט לתיקיית ‎/usr/share/X11/xkb/symbols ושם פתח את הקובץ il. 
+הדבק לסוף הקובץ את התוכן שבקובץ arkn.
+
+(אם התקנת גירסה ישנה יותר, עליך להדביק את התוכן במקום התוכן הקודם. שאר הפעולות המתוארות להלן מכוונות רק למי שלא התקין את הקובץ בעבר.)
+
+מבלי לצאת מ-Gedit, שמור וסגור את הקובץ il. 
+בחר פתיחת קובץ. נווט לתיקיה ‎/usr/share/X11/xkb/rules. בשני הקבצים הבאים יש לבצע את אותן פעולות: 
+base.lst 
+evdev.lst 
+
+חפש בקובץ את השורה: 
+  lyx             il: Hebrew (lyx) 
+ואחריה הכנס את השורה: 
+  si1452-2    il: Hebrew (si1452-2) 
+לאחר מכן, מבלי לצאת מ-Gedit, שמור וסגור את הקובץ. 
+
+לאחר סיום הטיפול בשני הקבצים האלה, יש לפתוח שני קבצים נוספים ולבצע בהם את הפעולה שתפורט מייד: 
+base.xml 
+evdev.xml 
+בכל קובץ חפש את הקטע הבא: 
+        <variant> 
+          <configItem> 
+            <name>lyx</name> 
+            <description>Hebrew (lyx)</description> 
+          </configItem> 
+        </variant> 
+מייד אחריו הדבק את: 
+        <variant> 
+          <configItem> 
+            <name>si1452-2</name> 
+            <description>Hebrew (si1452-2)</description> 
+          </configItem> 
+        </variant> 
+
+לאחר מכן, מבלי לצאת מ-Gedit, שמור וסגור את הקובץ. 
+לאחר סיום הטיפול בשני הקבצים, סגור את Gedit וסגור את הטרמינל. 
+ההתקנה הסתיימה. כדי לבחור באיזו פרישת מקלדת להשתמש, היכנס ל-Applications>System Tools>System Settings. בחר Keyboard. בחלק התחתון לחץ על Layout Settings. בחלק התחתון לחץ על + ואז ייפתח תפריט הפרישות. ב-Hebrew תמצא את הפרישה החדשה ותוכל לבחור להוסיפה.
+
+לשאלות ותמיכה ניתן לשלוח הודעת דואר אלקטרוני לכתובת mikladot@lab.co.il
+_______________________________________________________________
+Installing on Linux operationg system:
+
+Download the compressed folder 'arkn-linux.zip'
+Run Terminal
+type: 'sudo gedit'
+Click 'Open file', navigate to th folder '‎/usr/share/X11/xkb/symbols' and open the file 'il'.
+Paste to the end of the file the entire content of the file 'arkn'.
+
+(If you installed a previous version, paste the new content instead of the old one. You may skip the rest of the installation process.)
+
+Without leaving Gedit, save and close the file 'il'.
+ 
+Click 'Open file', navigate to th folder '‎/usr/share/X11/xkb/rules'.
+On the two following files perform the same operations:
+
+base.lst 
+evdev.lst 
+
+Search inside the file the line:
+
+  lyx             il: Hebrew (lyx)
+
+And after it insert the line:
+
+  si1452-2    il: Hebrew (si1452-2)
+
+Without leaving Gedit, save and close the file.
+
+After updating these files, open the following two files:
+
+base.xml 
+evdev.xml
+
+Inside each file search for the following section:
+
+        <variant> 
+          <configItem> 
+            <name>lyx</name> 
+            <description>Hebrew (lyx)</description> 
+          </configItem> 
+        </variant>
+
+Immediately after that paste these lines:
+
+        <variant> 
+          <configItem> 
+            <name>si1452-2</name> 
+            <description>Hebrew (si1452-2)</description> 
+          </configItem> 
+        </variant>
+
+Without leaving Gedit, save and close the files. After managing the two files, close Gedit and close the terminal.
+Installation completed. To choose the new layout go into Applications>System Tools>System Settings. Choose 'Keyboard'. In the bottom click 'Layout Settings'. In the bottom click '+' and the layouts menu will open. Under Hebrew you can select the new layout.
+
+For additional support send E-mail to mikladot@lab.co.il
