@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.7.195 on 2018-04-14 at 08:06 (GMT+3)-->
+<!--Last edited by Ukelele version 3.2.7.195 on 2018-04-16 at 17:14 (GMT+3)-->
 <!--Adapted from the standard MacOS Hebrew keyboard layout by Erez Volk.-->
 <keyboard group="126" id="-28239" name="Hebrew Modified" maxout="2">
 	<layouts>
@@ -298,7 +298,7 @@
 			<key code="39" output="&#x0027;"/>
 			<key code="40" output="ל"/>
 			<key code="41" output="ף"/>
-			<key code="42" action="׳"/>
+			<key code="42" action="׳ 1"/>
 			<key code="43" output=","/>
 			<key code="44" output="/"/>
 			<key code="45" output="מ"/>
@@ -306,7 +306,7 @@
 			<key code="47" output="."/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" output=";"/>
+			<key code="50" output="׳"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="&#x001B;"/>
@@ -523,7 +523,7 @@
 			<key code="47" output="‚"/>
 			<key code="48" output="&#x0009;"/>
 			<key code="49" output=" "/>
-			<key code="50" output="\"/>
+			<key code="50" output=";"/>
 			<key code="51" output="&#x0008;"/>
 			<key code="52" output="&#x0003;"/>
 			<key code="53" output="‏"/>
@@ -1033,6 +1033,10 @@
 		</action>
 		<action id="׳">
 			<when state="none" next="Geresh Pending"/>
+			<when state="Geresh Pending" output="״"/>
+		</action>
+		<action id="׳ 1">
+			<when state="none" output="\"/>
 			<when state="Geresh Pending" output="״"/>
 		</action>
 	</actions>
