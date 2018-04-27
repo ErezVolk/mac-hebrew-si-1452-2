@@ -18,8 +18,9 @@ in Hebrew layout, of course).
 
 Here are the changes (and [here](Hebrew%20Modified.dms?raw=true) is the MacOS installer):
 
-- The <kbd>-</kbd> (minus) key now types ־ (maqaf) without any modifiers and -
-  (minus) with the level-3 modifier (<kbd>AltGr</kbd>/<kbd>OPTION</kbd>/<kbd>⌥</kbd>).
+- The <kbd>-</kbd> (minus) key now types ־ (maqaf) when used without any
+  modifiers and - (minus) with the level-3 modifier
+(<kbd>AltGr</kbd>/<kbd>OPTION</kbd>/<kbd>⌥</kbd>).
 
 - The <kbd>\`</kbd> (backtick) key now produces a geresh instead of a
   semicolon, allowing you to type צ׳ופצ׳יק without modifier keys. To get the
@@ -48,5 +49,6 @@ The following table lists the changes (<kbd>⇧</kbd> = Level 2 Select (<kbd>Shi
 - Apostrophe and (Latin) quotation marks are fine, even though they're not proper Hebrew punctuation,
   since we don't use different opening/closing quotes.
 - Dead keys open up a whole new world.
-- Level-4 modifieres? 
+- Add the Yiddish digraphs
+- Level-4 modifieres? Should be good for cantillation marks
 - What am I missing?
