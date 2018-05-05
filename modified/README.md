@@ -29,20 +29,21 @@ semicolon character, use <kbd>⇮</kbd>+<kbd>\`</kbd>.
 - More experimentally, I've created a "dead key" combination:
 
   - Since maqaf-maqaf is never used in Hebrew, typing that sequence will
-    produce _a dagesh_ symbol. A kav mafrid may seem more natural, but the
-    rationale is that a dagesh is often used for disambiguation of words, and I
-    want to reduce the use of the thumb for common things.
+    produce a minus symbol (-).
+
+  - The same goes for geresh-geresh to produce a semicolon (;).
 
 The following table lists the changes (<kbd>⇧</kbd> = Level 2 Select (<kbd>Shift</kbd>);
 <kbd>⇮</kbd> = Level 3 Select (<kbd>AltGr</kbd>/<kbd>Option</kbd>)):
 
-| Key (Sequence)             | SI 1452-2                             | Hebrew Modified                       |
-| -------------------------- | ------------------------------------- | ------------------------------------- |
-| <kbd>-</kbd>               | - U+002D HYPEN-MINUS                  | ־ U+05BE HEBREW PUNCTUATION MAQAF     |
-| <kbd>⇮</kbd>+<kbd>-</kbd>  | ־ U+05BE HEBREW PUNCTUATION MAQAF     | - U+002D HYPEN-MINUS                  |
-| <kbd>\`</kbd>              | ; U+003B SEMICOLON                    | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
-| <kbd>⇮</kbd>+<kbd>\`</kbd> | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | ; U+003B SEMICOLON                    |
-| <kbd>-</kbd> <kbd>-</kbd>  | - -                                   | ״ U+05F4 HEBREW PUNCTUATION GERSHAYIM |
+| Key (Sequence)               | SI 1452-2                             | Hebrew Modified                       |
+| ---------------------------- | ------------------------------------- | ------------------------------------- |
+| <kbd>-</kbd>                 | - U+002D HYPEN-MINUS                  | ־ U+05BE HEBREW PUNCTUATION MAQAF     |
+| <kbd>⇮</kbd>+<kbd>-</kbd>    | ־ U+05BE HEBREW PUNCTUATION MAQAF     | - U+002D HYPEN-MINUS                  |
+| <kbd>\`</kbd>                | ; U+003B SEMICOLON                    | ׳ U+05F3 HEBREW PUNCTUATION GERESH    |
+| <kbd>⇮</kbd>+<kbd>\`</kbd>   | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | ; U+003B SEMICOLON                    |
+| <kbd>-</kbd> <kbd>-</kbd>    | - -                                   | - U+002D HYPHEN-MINUS                 |
+| <kbd>\`</kbd> <kbd>\`</kbd>  | \` \`                                 | ; U+003B SEMICOLON                    |
 
 
 ## Random
