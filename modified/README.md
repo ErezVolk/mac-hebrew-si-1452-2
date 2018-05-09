@@ -33,6 +33,8 @@ semicolon character, use <kbd>⇮</kbd>+<kbd>\`</kbd>.
 
   - The same goes for geresh-geresh to produce a semicolon (;).
 
+  - And by analogy, typing the equal sign twice produces qav mafrid (en-dash).
+
 The following table lists the changes (<kbd>⇧</kbd> = Level 2 Select (<kbd>Shift</kbd>);
 <kbd>⇮</kbd> = Level 3 Select (<kbd>AltGr</kbd>/<kbd>Option</kbd>)):
 
@@ -44,6 +46,7 @@ The following table lists the changes (<kbd>⇧</kbd> = Level 2 Select (<kbd>Shi
 | <kbd>⇮</kbd>+<kbd>\`</kbd>   | ׳  U+05F3 HEBREW PUNCTUATION GERESH   | ; U+003B SEMICOLON                    |
 | <kbd>-</kbd> <kbd>-</kbd>    | - -                                   | - U+002D HYPHEN-MINUS                 |
 | <kbd>\`</kbd> <kbd>\`</kbd>  | \` \`                                 | ; U+003B SEMICOLON                    |
+| <kbd>=</kbd> <kbd>=</kbd>    | = =                                   | – U+2013 EN DASH                      |
 
 
 ## Random
