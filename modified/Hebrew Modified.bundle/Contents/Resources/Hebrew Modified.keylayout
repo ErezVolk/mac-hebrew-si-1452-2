@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.7.195 on 2018-05-09 at 19:19 (GMT+3)-->
+<!--Last edited by Ukelele version 3.2.7.195 on 2018-05-10 at 18:12 (GMT+3)-->
 <!--Adapted from the standard MacOS Hebrew keyboard layout by Erez Volk.-->
 <keyboard group="126" id="-27866" name="Hebrew Modified" maxout="2">
 	<layouts>
@@ -268,8 +268,8 @@
 			<key code="9" output="ה"/>
 			<key code="10" output="&#x0003;"/>
 			<key code="11" output="נ"/>
-			<key code="12" output="ץ"/>
-			<key code="13" output="ן"/>
+			<key code="12" action="ץ"/>
+			<key code="13" action="ן"/>
 			<key code="14" output="ק"/>
 			<key code="15" output="ר"/>
 			<key code="16" output="ט"/>
@@ -1035,6 +1035,14 @@
 		<action id="ד 2">
 			<when state="none" output="ד"/>
 		</action>
+		<action id="ן">
+			<when state="none" next="Shin Pending"/>
+			<when state="Shin Pending" output="ׁ"/>
+		</action>
+		<action id="ץ">
+			<when state="none" next="Shin Pending"/>
+			<when state="Shin Pending" output="ׂ"/>
+		</action>
 		<action id="׳">
 			<when state="none" next="Geresh Pending"/>
 			<when state="Geresh Pending" output="״"/>
@@ -1052,5 +1060,6 @@
 		<when state="Equals pending" output="="/>
 		<when state="Geresh Pending" output="׳"/>
 		<when state="Maqaf Pending" output="־"/>
+		<when state="Shin Pending" output="ץ"/>
 	</terminators>
 </keyboard>

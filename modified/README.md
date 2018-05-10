@@ -35,6 +35,10 @@ semicolon character, use <kbd>⇮</kbd>+<kbd>\`</kbd>.
 
   - And by analogy, typing the equal sign twice produces qav mafrid (en-dash).
 
+  - This proved so convenient to me, that I went ahead and created double-click
+    versions of the shin/sin dots, since the sequences ץץ and ןן don't occur
+    in normal Hebrew text.
+
 The following table lists the changes (<kbd>⇧</kbd> = Level 2 Select (<kbd>Shift</kbd>);
 <kbd>⇮</kbd> = Level 3 Select (<kbd>AltGr</kbd>/<kbd>Option</kbd>)):
 
@@ -47,6 +51,8 @@ The following table lists the changes (<kbd>⇧</kbd> = Level 2 Select (<kbd>Shi
 | <kbd>-</kbd> <kbd>-</kbd>    | - -                                   | - U+002D HYPHEN-MINUS                 |
 | <kbd>\`</kbd> <kbd>\`</kbd>  | \` \`                                 | ; U+003B SEMICOLON                    |
 | <kbd>=</kbd> <kbd>=</kbd>    | = =                                   | – U+2013 EN DASH                      |
+| <kbd>Q</kbd> <kbd>Q</kbd>    | ץ ץ                                   | U+05C2 HEBREW POINT SIN DOT           |
+| <kbd>W</kbd> <kbd>W</kbd>    | ן ן                                   | U+05C1 HEBREW POINT SHIN DOT          |
 
 
 ## Random
