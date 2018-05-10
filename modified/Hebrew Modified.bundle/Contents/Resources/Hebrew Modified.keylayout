@@ -1,6 +1,6 @@
 <?xml version="1.1" encoding="UTF-8"?>
 <!DOCTYPE keyboard SYSTEM "file://localhost/System/Library/DTDs/KeyboardLayout.dtd">
-<!--Last edited by Ukelele version 3.2.7.195 on 2018-05-10 at 18:12 (GMT+3)-->
+<!--Last edited by Ukelele version 3.2.7.195 on 2018-05-10 at 21:11 (GMT+3)-->
 <!--Adapted from the standard MacOS Hebrew keyboard layout by Erez Volk.-->
 <keyboard group="126" id="-27866" name="Hebrew Modified" maxout="2">
 	<layouts>
@@ -1038,10 +1038,12 @@
 		<action id="ן">
 			<when state="none" next="Shin Pending"/>
 			<when state="Shin Pending" output="ׁ"/>
+			<when state="Sin Pending" output="ׁ"/>
 		</action>
 		<action id="ץ">
-			<when state="none" next="Shin Pending"/>
+			<when state="none" next="Sin Pending"/>
 			<when state="Shin Pending" output="ׂ"/>
+			<when state="Sin Pending" output="ׂ"/>
 		</action>
 		<action id="׳">
 			<when state="none" next="Geresh Pending"/>
@@ -1060,6 +1062,7 @@
 		<when state="Equals pending" output="="/>
 		<when state="Geresh Pending" output="׳"/>
 		<when state="Maqaf Pending" output="־"/>
-		<when state="Shin Pending" output="ץ"/>
+		<when state="Shin Pending" output="ן"/>
+		<when state="Sin Pending" output="ץ"/>
 	</terminators>
 </keyboard>
