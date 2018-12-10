@@ -25,6 +25,6 @@ Hacking the keyboard layout can also be nice―there are a couple of unused keys
 
 If you're feeling really adventurous, check out my own [slightly modified version](modified).
 
-Erez Volk, April 2018
+Erez Volk, December 2018
 
 
