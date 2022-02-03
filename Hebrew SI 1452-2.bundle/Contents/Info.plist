@@ -10,6 +10,8 @@
 	<string>1.0.2</string>
 	<key>KLInfo_Hebrew SI 1452-2</key>
 	<dict>
+		<key>TICapsLockLanguageSwitchCapable</key>
+		<false/>
 		<key>TISInputSourceID</key>
 		<string>org.sil.ukelele.keyboardlayout.hebrewsi1452-2.hebrewsi1452-2</string>
 		<key>TISIntendedLanguage</key>
