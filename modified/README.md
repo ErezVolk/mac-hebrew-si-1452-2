@@ -16,7 +16,7 @@ the Israeli standard layout (1452-2) that would flip the situation, making the
 Hebrew punctuation natural to type and the foreign characters harder (only when
 in Hebrew layout, of course).
 
-Here are the changes (and [here](Hebrew%20Modified.dms?raw=true) is the MacOS installer):
+Here are the changes (and [here](Hebrew%20Modified.dmg?raw=true) is the MacOS installer):
 
 - The <kbd>-</kbd> (minus) key now types ־ (maqaf) when used without any
   modifiers and - (minus) with the level-3 modifier
